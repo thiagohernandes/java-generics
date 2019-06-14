@@ -3,15 +3,15 @@ package com.br;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.br.generics.GenericOne;
+import com.br.generics.Generic1;
 
-public class GenericOneRun {
+public class Generic1Run {
 
 	public static void main(String...strings) {
 		
-		GenericOne<String> stringGeneric = new GenericOne<>();
-		GenericOne<Integer> integerGeneric = new GenericOne<>();
-		GenericOne<Map<String,String>> mapGeneric = new GenericOne<>();
+		Generic1<String> stringGeneric = new Generic1<>();
+		Generic1<Integer> integerGeneric = new Generic1<>();
+		Generic1<Map<String,String>> mapGeneric = new Generic1<>();
 		
 		stringGeneric.set("Olá");
 		integerGeneric.set(9000);

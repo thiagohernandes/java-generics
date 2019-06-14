@@ -1,6 +1,6 @@
 package com.br.generics;
 
-public class GenericOne<T> { 
+public class Generic1<T> { 
 	
 	private T t;
 

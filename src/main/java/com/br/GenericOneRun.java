@@ -22,7 +22,6 @@ public class GenericOneRun {
 		System.out.println(stringGeneric.get());
 		System.out.println(integerGeneric.get());
 		System.out.println(mapTeste.get("msg"));
-		
 	}
 	
 }
